@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Let ChatGPT comment on your PR.
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
       - name: ChatGPT comment
         uses: mvtavares/chatgpt-ts-action@v1
         id: chatgpt
